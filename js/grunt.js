@@ -47,12 +47,16 @@ module.exports = function(grunt) {
         undef: true,
         boss: true,
         eqnull: true,
-        browser: true
+        browser: true,
+        jQuery: true,
+        devel: true
       },
       globals: {
+        // the gloabls config options in the sample config file
+        // are very misleading.
         jQuery: true,
-        browser: true,
-        devel: true
+        $: true,
+        Modernizr: true
       }
     },
     uglify: {}

@@ -1,8 +1,5 @@
 
-var console = console,//hackish solution because i can not get grunt to use configuration
-  $ = $,
-  jQuery = jQuery,
-  Modernizr = Modernizr,
+var //Modernizr = Modernizr, 
   NowEverywhere = NowEverywhere || {},
 	indexedDB = window.indexedDB || window.webkitIndexedDB || window.mozIndexedDB || window.msIndexedDB;
 
